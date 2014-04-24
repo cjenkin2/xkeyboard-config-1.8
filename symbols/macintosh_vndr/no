@@ -50,3 +50,17 @@ xkb_symbols "nodeadkeys" {
     key <AD12> {	[       diaeresis,     asciicircum,       asciitilde,          macron     	]      	};
 
 };
+
+partial alphanumeric_keys 
+xkb_symbols "mac" {
+    // Alias to keep Gnome UI happy.
+    // see https://bugs.launchpad.net/bugs/327963
+    include "macintosh_vndr/no(basic)"
+};
+
+partial alphanumeric_keys 
+xkb_symbols "mac_nodeadkeys" {
+    // Alias to keep Gnome UI happy.
+    // see https://bugs.launchpad.net/bugs/327963
+    include "macintosh_vndr/no(nodeadkeys)"
+};

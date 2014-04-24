@@ -77,6 +77,7 @@
   eurosign:2		=	+eurosign(2)
   eurosign:4		=	+eurosign(4)
   eurosign:5		=	+eurosign(5)
+  rupeesign:4           =       +rupeesign(4)
   keypad:oss            =       +keypad(oss)
   keypad:legacy         =	+keypad(legacy)
   keypad:legacy_wang    =	+keypad(legacy_wang)
@@ -106,5 +107,6 @@
   esperanto:qwerty      =	+epo(qwerty)
   esperanto:dvorak      =	+epo(dvorak)
   terminate:ctrl_alt_bksp =	+terminate(ctrl_alt_bksp)
+  apple:alupckeys	=	+macintosh_vndr/apple(alupckeys)
 
 

@@ -1,3 +1,10 @@
+xkeyboard-config (1.8-2genesi0) maverick; urgency=low
+
+  * Initial port of xkb-data to Genesi Efika i.MX53 (slimbook)
+    Convert source format to 3.0 (native)
+
+ -- Chris <chris.jenkins@genesi-usa.com>  Mon, 28 Apr 2014 17:21:51 -0500
+
 xkeyboard-config (1.8-1ubuntu8.1~10.10.1) maverick-proposed; urgency=low
 
   * Add 129_rupee_1.patch, 130_rupee_2.patch:  Cherrypick from upstream

@@ -982,35 +982,35 @@
     <model>
       <configItem>
         <name>tm2020</name>
-        <description>TypeMatrix EZ-Reach 2020</description>
+        <_description>TypeMatrix EZ-Reach 2020</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>tm2030PS2</name>
-        <description>TypeMatrix EZ-Reach 2030 PS2</description>
+        <_description>TypeMatrix EZ-Reach 2030 PS2</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>tm2030USB</name>
-        <description>TypeMatrix EZ-Reach 2030 USB</description>
+        <_description>TypeMatrix EZ-Reach 2030 USB</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>tm2030USB-102</name>
-        <description>TypeMatrix EZ-Reach 2030 USB (102/105:EU mode)</description>
+        <_description>TypeMatrix EZ-Reach 2030 USB (102/105:EU mode)</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>tm2030USB-106</name>
-        <description>TypeMatrix EZ-Reach 2030 USB (106:JP mode)</description>
+        <_description>TypeMatrix EZ-Reach 2030 USB (106:JP mode)</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
@@ -1095,6 +1095,27 @@
       <configItem>
         <name>apple_laptop</name>
         <_description>Apple Laptop</_description>
+	<vendor>Apple</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>applealu_ansi</name>
+        <_description>Apple Aluminium Keyboard (ANSI)</_description>
+	<vendor>Apple</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>applealu_iso</name>
+        <_description>Apple Aluminium Keyboard (ISO)</_description>
+	<vendor>Apple</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>applealu_jis</name>
+        <_description>Apple Aluminium Keyboard (JIS)</_description>
 	<vendor>Apple</vendor>
       </configItem>
     </model>
@@ -1194,6 +1215,13 @@
         <name>creativedw7000</name>
         <_description>Creative Desktop Wireless 7000</_description>
         <vendor>Creative</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>intelligent_keyboard_k04</name>
+        <description>Intelligent Keyboard K04</description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
   </modelList>
@@ -1299,6 +1327,14 @@
           <configItem>
             <name>olpc2</name>
             <_description>Group toggle on multiply/divide key</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>srp</name>
+            <_description>Serbian</_description>
+            <languageList><iso639Id>eng</iso639Id>
+                          <iso639Id>srp</iso639Id> </languageList>
           </configItem>
         </variant>
       </variantList>
@@ -1659,7 +1695,7 @@
         <variant>
           <configItem>
             <name>tam_keyboard_with_numerals</name>
-            <description>Tamil Keyboard with Numerals</description>
+            <_description>Tamil Keyboard with Numerals</_description>
             <languageList><iso639Id>tam</iso639Id></languageList>
           </configItem>
         </variant>
@@ -1724,6 +1760,12 @@
             <name>hin-wx</name>
             <_description>Hindi Wx</_description>
             <languageList><iso639Id>hin</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>rupee</name>
+            <_description>With RupeeSign</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2057,6 +2099,12 @@
 	  <configItem>
 	    <name>ucw</name>
 	    <_description>UCW layout (accented letters only)</_description>
+	 </configItem>
+	</variant>
+	<variant>
+	  <configItem>
+	    <name>dvorak-ucw</name>
+	    <_description>US Dvorak with CZ UCW support</_description>
 	 </configItem>
 	</variant>
       </variantList>
@@ -2868,6 +2916,12 @@
             <_description>OADG 109A</_description>
           </configItem>
 	</variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <description>Macintosh</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2928,7 +2982,24 @@
         <_description>Laos</_description>
         <languageList><iso639Id>lao</iso639Id></languageList>
       </configItem>
-      <variantList/>
+      <variantList>
+	<variant>
+	  <configItem>
+	    <name>basic</name>
+	    <_description>Laos</_description>
+            <languageList><iso639Id>lao</iso639Id>
+            </languageList>
+	  </configItem>
+	</variant>
+	<variant>
+	  <configItem>
+	    <name>stea</name>
+	    <_description>Laos - STEA (proposed standard layout)</_description>
+            <languageList><iso639Id>lao</iso639Id>
+            </languageList>
+	  </configItem>
+	</variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -3483,6 +3554,14 @@
         </variant>
         <variant>
           <configItem>
+            <name>srp</name>
+            <_description>Serbian</_description>
+            <languageList><iso639Id>rus</iso639Id>
+                          <iso639Id>srp</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>bak</name>
             <_description>Bashkirian</_description>
             <languageList><iso639Id>bak</iso639Id></languageList>
@@ -3947,6 +4026,46 @@
     </layout>
     <layout>
       <configItem>
+        <name>tw</name>
+        <_shortDescription>Twn</_shortDescription>
+        <_description>Taiwan</_description>
+        <languageList>
+          <iso639Id>trv</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>indigenous</name>
+            <_description>Indigenous</_description>
+            <languageList>
+              <iso639Id>ami</iso639Id>
+              <iso639Id>tay</iso639Id>
+              <iso639Id>bnn</iso639Id>
+              <iso639Id>ckv</iso639Id>
+              <iso639Id>pwn</iso639Id>
+              <iso639Id>pyu</iso639Id>
+              <iso639Id>dru</iso639Id>
+              <iso639Id>ais</iso639Id>
+              <iso639Id>ssf</iso639Id>
+              <iso639Id>tao</iso639Id>
+              <iso639Id>tsu</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>saisiyat</name>
+            <_description>Saisiyat</_description>
+            <languageList>
+              <iso639Id>xsf</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>ua</name>
         <_shortDescription>Ukr</_shortDescription>
         <_description>Ukraine</_description>
@@ -4290,8 +4409,8 @@
     <layout>
       <configItem>
         <name>sn</name>
-        <shortDescription>Sen</shortDescription>
-        <description>Senegal</description>
+        <_shortDescription>Sen</_shortDescription>
+        <_description>Senegal</_description>
         <languageList><iso639Id>wol</iso639Id></languageList>
       </configItem>
       <variantList/>
@@ -4320,7 +4439,7 @@
     <layout>
       <configItem>
         <name>tm</name>
-        <shortDescription>Tkm</shortDescription>
+        <_shortDescription>Tkm</_shortDescription>
         <_description>Turkmenistan</_description>
         <languageList><iso639Id>tuk</iso639Id></languageList>
       </configItem>
@@ -4332,6 +4451,42 @@
           </configItem>
         </variant>
       </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>ml</name>
+        <_shortDescription>Mli</_shortDescription>
+        <_description>Mali</_description>
+        <languageList><iso639Id>bam</iso639Id></languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>fr-oss</name>
+            <_description>Français (France Alternative)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>us-mac</name>
+            <_description>English (USA Macintosh)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>us-intl</name>
+            <_description>English (USA International)</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>tz</name>
+        <_shortDescription>Tza</_shortDescription>
+	<_description>Tanzania</_description>
+        <languageList><iso639Id>swa</iso639Id></languageList>
+      </configItem>
     </layout>
   </layoutList>
   <optionList>
@@ -5014,13 +5169,19 @@
       <option>
         <configItem>
           <name>numpad:shift3</name>
-          <_description>Shift does not cancel NumLock, chooses 3d level instead</_description>
+          <_description>Shift does not cancel NumLock, chooses 3rd level instead</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>srvrkeys:none</name>
           <_description>Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>apple:alupckeys</name>
+          <description>Apple Aluminium Keyboard: emulate PC keys (Print, Scroll_Lock, Pause, NumLock)</description>
         </configItem>
       </option>
       <option>
@@ -5068,7 +5229,7 @@
       </option>
     </group>
     <group allowMultipleSelection="false">
-      <!-- Let space output nobreakspace for the desired level -->
+      <!-- Let space output NBSP, NNBSP, ZWNJ, and ZWJ for the desired level -->
       <configItem>
         <name>nbsp</name>
         <_description>Using space key to input non-breakable space character</_description>
@@ -5119,6 +5280,54 @@
         <configItem>
           <name>nbsp:level4nl</name>
           <_description>Non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:zwnj2</name>
+          <_description>Zero-width non-joiner character at second level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:zwnj2zwj3</name>
+          <_description>Zero-width non-joiner character at second level, zero-width joiner character at third level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:zwnj2zwj3nb4</name>
+          <_description>Zero-width non-joiner character at second level, zero-width joiner character at third level, non-breakable space character at fourth level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:zwnj2nb3</name>
+          <_description>Zero-width non-joiner character at second level, non-breakable space character at third level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:zwnj2nb3s</name>
+          <_description>Zero-width non-joiner character at second level, non-breakable space character at third level, nothing at fourth level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:zwnj2nb3zwj4</name>
+          <_description>Zero-width non-joiner character at second level, non-breakable space character at third level, zero-width joiner at fourth level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:zwnj2nb3nnb4</name>
+          <_description>Zero-width non-joiner character at second level, non-breakable space character at third level, thin non-breakable space at fourth level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:zwnj3zwj4</name>
+          <_description>Zero-width non-joiner character at third level, zero-width joiner at fourth level</_description>
         </configItem>
       </option>
     </group>
