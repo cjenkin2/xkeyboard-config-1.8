@@ -3602,6 +3602,12 @@
       <variantList>
         <variant>
           <configItem>
+            <name>sppp</name>
+            <_description>Dronóv Slimbook</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
